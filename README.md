@@ -2,7 +2,7 @@
 
 # Short project title
 
-To what extent does the 30-day rule impact the Airbnb housing price in Amsterdam?
+To what extent does the announcement of the 30-day rule impact the Airbnb housing price in Amsterdam?
 
 ## Motivation
 
