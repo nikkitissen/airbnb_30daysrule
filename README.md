@@ -2,11 +2,11 @@
 
 # Short project title
 
-__Long project title, e.g., research question__
+To what extent does the 30-day rule impact the Airbnb housing price in Amsterdam?
 
 ## Motivation
 
-Motivate your research question or business problem. Clearly explain which problem is solved.
+With the introduction of the 30-day rule, renters have 
 
 ## Method and results
 
