@@ -6,14 +6,11 @@ To what extent does the 30-day rule impact the Airbnb housing price in Amsterdam
 
 ## Motivation
 
-With the introduction of the 30-day rule, renters have 
+With the introduction of the 30-day rule, renters have less time to achieve the breakeven point. Hence, it is logical that the prices rise. But are the inc
 
 ## Method and results
 
-First, introduce and motivate your chosen method, and explain how it contributes to solving the research question/business problem.
-
-Second, summarize your results concisely. Make use of subheaders where appropriate.
-
+To analyse whether the announcement of the 30-day rule has a significant effect on the housing price of Airbnb houses, an event study will be conducted. With a window of 14 days before the announcement and 30 days after, it will be analysed whether the announcement has a significant effect.
 ## Repository overview
 
 Provide an overview of the directory structure and files.
