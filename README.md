@@ -1,6 +1,6 @@
 # DPrepProject Team 5
 
-# Short project title
+# 30-day rule Announcement
 
 To what extent does the announcement of the 30-day rule impact the Airbnb housing price in Amsterdam?
 
