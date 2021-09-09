@@ -1,6 +1,4 @@
-# DPrepProject Team 5
-
-# 30-day rule Announcement
+# How does Amsterdam's 30-day rule impact AirBnB prices?
 
 To what extent does the announcement of the 30-day rule impact the Airbnb housing price in Amsterdam?
 
