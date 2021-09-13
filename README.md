@@ -4,7 +4,7 @@ To what extent does the announcement of the 30-day rule impact the Airbnb housin
 
 ## Motivation
 
-With the introduction of the 30-day rule, renters have less time to achieve the breakeven point. Hence, it is logical that the prices rise. But does the announcement indeed have a significant effect? If so, how much do the prices rise?
+With the introduction of the 30-day rule, renters have less time to cover their related expenses. Hence, it is logical that the prices rise. But does the announcement indeed have a significant effect? If so, how much do the prices rise?
 
 ## Method and results
 
