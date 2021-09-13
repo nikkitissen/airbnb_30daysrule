@@ -1,10 +1,10 @@
-# How does Amsterdam's 30-day rule impact AirBnB prices?
+# How does Amsterdam's 30-days rule impact AirBnB prices?
 
 To what extent does the announcement of the 30-day rule impact the Airbnb housing price in Amsterdam?
 
 ## Motivation
 
-With the introduction of the 30-day rule, renters have less time to cover their related expenses. Hence, it is logical that the prices rise. But does the announcement indeed have a significant effect? If so, how much do the prices rise?
+With the introduction of the 30-days rule, renters have less time to cover their related expenses. Hence, it is logical that the prices rise. But does the announcement indeed have a significant effect? If so, how much do the prices rise?
 
 ## Method and results
 
