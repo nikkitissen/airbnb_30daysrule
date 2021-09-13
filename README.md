@@ -1,6 +1,4 @@
-# DPrepProject Team 5
-
-# 30-day rule Announcement
+# How does Amsterdam's 30-day rule impact AirBnB prices?
 
 To what extent does the announcement of the 30-day rule impact the Airbnb housing price in Amsterdam?
 
@@ -18,7 +16,12 @@ Provide an overview of the directory structure and files.
 
 ## Running instructions
 
-For doing the event study regression there is a package in R which named 'eventstudies'. This can be downloaded by "install.packages(eventstudies)" in R and this can be opened by "library(eventstudies)" in R. 
+- Install [RStudio and R](https://tilburgsciencehub.com/get/r)
+- Install additional packages
+
+```
+install.packages("eventstudies")
+```
 
 ## More resources
 
