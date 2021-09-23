@@ -34,4 +34,4 @@ Point interested users to any related literature and/or documentation.
 
 ## About
 
-This repository has been created in assignment of the Tilburg University course Data Preperation and Workflow Managament. The contributors of this repository are [Sharda Hinsenveld](), [Mirandda Manschot](), [Nikki Tissen](), [Lauren Verhoeven](), and [Lotte Verkuijlen](). 
+This repository has been created in assignment of the Tilburg University course Data Preperation and Workflow Managament. The contributors of this repository are [Sharda Hinsenveld](https://github.com/Shardahinsenveld), [Mirandda Manschot](https://github.com/mirandamanschot), [Nikki Tissen](https://github.com/nikkitissen), [Lauren Verhoeven](https://github.com/LaurenVerhoeven), and [Lotte Verkuijlen](https://github.com/LotteVerkuijlen). 
