@@ -29,7 +29,7 @@ install.packages("eventstudies")
 ## More resources
 - More information about the 30-days rule can be found [here](https://www.airbnb.com/help/article/860/amsterdam?locale=en&_set_bev_on_new_domain=1632399829_ZDVkNDgwYmU4YjY2) (this article is also available in [Dutch](https://www.airbnb.nl/help/article/860/amsterdam?_set_bev_on_new_domain=1632399829_ZDVkNDgwYmU4YjY2))
 - An overview of the airbnbs in Amsterdam can be found [here](http://insideairbnb.com/amsterdam/).
-- Similar datasets as the one we used for this project are avalable on the airbnb website in the "[Get the data](http://insideairbnb.com/get-the-data.html)" tab.
+- Similar datasets as the one we used for this project are avalable on the airbnb website under the "[Get the data](http://insideairbnb.com/get-the-data.html)" tab.
 
 ## About
 
