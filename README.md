@@ -26,7 +26,6 @@ Provide an overview of the directory structure and files.
 ```
 install.packages("eventstudies")
 ```
-- Open AirBnB dataset [listings (1)](Uploading listings (1).csv.gz…)
 
 
 ## More resources
