@@ -34,4 +34,4 @@ Point interested users to any related literature and/or documentation.
 
 ## About
 
-Explain who has contributed to the repository. You can say it has been part of a class you've taken at Tilburg University.
+This repository has been created in assignment of the Tilburg University course Data Preperation and Workflow Managament. The contributors of this repository are [Sharda Hinsenveld](), [Mirandda Manschot](), [Nikki Tissen](), [Lauren Verhoeven](), and [Lotte Verkuijlen](). 
