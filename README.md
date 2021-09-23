@@ -1,9 +1,10 @@
-# How does Amsterdam's 30-days rule impact AirBnB prices?
+# Which AirBnB should I visit while staying in Amsterdam?
 
-To what extent does the announcement of the [30-day rule](https://www.engadget.com/2018-01-10-amsterdam-airbnb-rental-30-day-limit.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACSA-L7X_l1GZsI5sgU9BXuy4sX6EUP0fkHapl0HKwO4zOPZJ0MEeLZIDhIEoE2g32AcAW_jcdybRXXK3YddeFH0q7ZTXtKFqS8m67DWMjanp-rGH2kTTv7Ejf6HtuI0Pq6qQ4WHOszvmWAPzwccfirxqzsRSgymmuTnM2rpWr9h)
- impact the Airbnb housing price in Amsterdam? This study will be conducted by comparing Amsterdam, where the 30-day rule is active, with Brussel, where they do not have a 30-day rule.
+This study shows interest in the [30-days rule](https://www.engadget.com/2018-01-10-amsterdam-airbnb-rental-30-day-limit.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACSA-L7X_l1GZsI5sgU9BXuy4sX6EUP0fkHapl0HKwO4zOPZJ0MEeLZIDhIEoE2g32AcAW_jcdybRXXK3YddeFH0q7ZTXtKFqS8m67DWMjanp-rGH2kTTv7Ejf6HtuI0Pq6qQ4WHOszvmWAPzwccfirxqzsRSgymmuTnM2rpWr9h) which is 
+To what extent does the announcement of the 30-days rule impact the Airbnb housing price in Amsterdam? This study will be conducted by comparing the airbnbs located in Amsterdam that follow this 30-days rule with the airbnbs located in Amsterdam that do not follow the 30-days rule. 
  
-![Capital of Belgium Touristic city high population density high demand airbnb does work with the 30-day rule](https://user-images.githubusercontent.com/89909366/134490050-e2652b9d-5a88-4da7-b63e-9316c5d2814a.gif)
+ ![airbnb](https://user-images.githubusercontent.com/89909366/134505161-8c77de18-1d4d-4369-a780-accafbd86086.gif)
+
 
 
 ## Motivation
