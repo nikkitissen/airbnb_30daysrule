@@ -33,4 +33,4 @@ install.packages("eventstudies")
 
 ## About
 
-This repository has been created in assignment of the Tilburg University course Data Preperation and Workflow Managament. The contributors of this repository are [Sharda Hinsenveld](https://github.com/Shardahinsenveld), [Mirandda Manschot](https://github.com/mirandamanschot), [Nikki Tissen](https://github.com/nikkitissen), [Lauren Verhoeven](https://github.com/LaurenVerhoeven), and [Lotte Verkuijlen](https://github.com/LotteVerkuijlen). 
+This repository has been created in assignment of the Tilburg University course Data Preperation and Workflow Managament. The contributors of this repository are [Sharda Hinsenveld](https://github.com/Shardahinsenveld), [Miranda Manschot](https://github.com/mirandamanschot), [Nikki Tissen](https://github.com/nikkitissen), [Lauren Verhoeven](https://github.com/LaurenVerhoeven), and [Lotte Verkuijlen](https://github.com/LotteVerkuijlen). 
