@@ -8,7 +8,7 @@ This study shows interest in the [30-days rule](https://www.engadget.com/2018-01
 
 Amsterdam's excecutive board hopes to reduce tourists problems and the number of people who use their home as a way to earn money by implementing the 30-days rule. This means that an airbnb rental cannot be longer than 30 days in a calander year. This results in extra costs for the airbnb owners (cleaning, administrative, etc.) and is therefore less profitable. You would say that the logical response is to let the price rise, but does the 30-days rule indeed have a significant effect on the price? And if so, how much do the prices rise?
 
-30 day rule
+### 30 day rule
 Amsterdam adopted the 30-days rule at the start of 2019. Before this start the 60-days rule was valid, where people could rent their houses for 60-days in a year. 
 
 ## Method and results
