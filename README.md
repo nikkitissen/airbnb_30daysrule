@@ -24,11 +24,7 @@ There are three folders (data, gen, and src), a .gitignore file, and a README.md
 
 ## Running instructions
 
-- You can donwload the data from this button: 
-
-st.download_button('Download CSV', text_contents, 'text/csv')
-with open('listings (1).csv.gz', 't') as f:
-	st.download_button('Download CSV', f)  # Defaults to 'text/plain'
+- You can donwload the data from this button: [button] (streamlit.download_button(label, data, file_name='listings (1).csv.gz', mime=None, key=None)
 
 - Install [RStudio and R](https://tilburgsciencehub.com/get/r)
 - Install additional packages
