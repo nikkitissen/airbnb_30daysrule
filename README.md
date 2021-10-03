@@ -24,7 +24,7 @@ There are three folders (data, gen, and src), a .gitignore file, and a README.md
 
 ## Running instructions
 
-- You can donwload the data from this button: [button]
+- You can donwload the data by clicking [here]([Uploading listings (1).csv.gz…]())
 
 - Install [RStudio and R](https://tilburgsciencehub.com/get/r)
 - Install additional packages
