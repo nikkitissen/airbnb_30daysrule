@@ -14,7 +14,7 @@ Amsterdam's excecutive board hopes to reduce tourists problems and the number of
 We downloaded the dataset from the Airbnb website with the listings data for Amsterdam. This was already a very detailed dataset, but not complete for our analysis. First, we have selected only the Airbnbs which can be rented as a whole house, since the 30-days rule only applies to entire houses and not just a room. Also, we have removed additional data that is not significant for this project by removing a number of variables from the dataset. After that, we had to create new variables: 
   1) price per person.
   2) dummy variable to see which Airbnbs follow the 30-days rule, follow the 60-days rule, and that do not follow these rules.
-  3) 3) dummy variable to see whether the Airbnb is located in the centre of Amsterdam or in Noord-Amsterdam. 
+  3) dummy variable to see whether the Airbnb is located in the centre of Amsterdam or in Noord-Amsterdam. 
 This last variable is included as a control variable for the analysis. We have included this variable, because Amsterdam is a big city. So, it would make sense that the airbnb prices are more expensive in the centre than in a suburb as Amsterdam-Noord. With this control variable this location factor will not be the reason for different pricing. Now the data is prepared for our analysis. 
 
 ### Analysis and results
