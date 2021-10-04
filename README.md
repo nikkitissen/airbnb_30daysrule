@@ -1,7 +1,8 @@
 # Which AirBnB should I visit while staying in Amsterdam?
 This study shows interest in the [30-days rule](https://www.engadget.com/2018-01-10-amsterdam-airbnb-rental-30-day-limit.html?guccounter=1&guce_referrer=aHR0cHM6Ly93d3cuZ29vZ2xlLmNvbS8&guce_referrer_sig=AQAAACSA-L7X_l1GZsI5sgU9BXuy4sX6EUP0fkHapl0HKwO4zOPZJ0MEeLZIDhIEoE2g32AcAW_jcdybRXXK3YddeFH0q7ZTXtKFqS8m67DWMjanp-rGH2kTTv7Ejf6HtuI0Pq6qQ4WHOszvmWAPzwccfirxqzsRSgymmuTnM2rpWr9h) which is implied in Amsterdam. Our research question is formulated as follows: "To what extent does the announcement of the 30-days rule impact the Airbnb housing price in Amsterdam?" This study will be conducted by comparing the airbnbs located in Amsterdam that follow this 30-days rule with the airbnbs located in Amsterdam that do not follow the 30-days rule. 
  
- ![airbnb](https://user-images.githubusercontent.com/89909366/134505161-8c77de18-1d4d-4369-a780-accafbd86086.gif)
+ ![airbnb](https://user-images.githubusercontent.com/89909366/135813509-5a5c30be-5306-4947-9385-72c1367efdfa.gif)
+
 
 ## Motivation
 Amsterdam's excecutive board hopes to reduce tourists problems and the number of people who use their home as a way to earn money by implementing the 30-days rule. This means that an airbnb rental cannot be longer than 30 days in a calander year. This rule has been adopted at the start of 2019 (before this rule the 60-days rule was valid). This new rule results in extra costs for the airbnb owners (cleaning, administrative, etc.) and is therefore less profitable. You would say that the logical response is to let the price rise, but does the 30-days rule indeed have a significant effect on the price? And if so, how much do the prices rise? 
