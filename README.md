@@ -23,7 +23,6 @@ anova(priceperson_aov0)
 There are three folders (data, gen, and src), a .gitignore file, and a README.md file. The README.md file is this file that you are reasing right now. 
 
 ## Running instructions
-
 - You can donwload the data by clicking [here]([Uploading listings (1).csv.gz…]())
 
 - Install [RStudio and R](https://tilburgsciencehub.com/get/r)
@@ -40,5 +39,4 @@ install.packages("eventstudies")
 - Similar datasets as the one we used for this project are avalable on the airbnb website under the "[Get the data](http://insideairbnb.com/get-the-data.html)" tab.
 
 ## About
-
 This repository has been created in assignment of the Tilburg University course [Data Preperation and Workflow Managament](https://dprep.hannesdatta.com/). The contributors of this repository are [Sharda Hinsenveld](https://github.com/Shardahinsenveld), [Miranda Manschot](https://github.com/mirandamanschot), [Nikki Tissen](https://github.com/nikkitissen), [Lauren Verhoeven](https://github.com/LaurenVerhoeven), and [Lotte Verkuijlen](https://github.com/LotteVerkuijlen). 
