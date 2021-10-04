@@ -15,6 +15,7 @@ We downloaded the dataset from the Airbnb website with the listings data for Ams
   1) price per person.
   2) dummy variable to see which Airbnbs follow the 30-days rule, follow the 60-days rule, and that do not follow these rules.
   3) dummy variable to see whether the Airbnb is located in the centre of Amsterdam or in Noord-Amsterdam. 
+
 This last variable is included as a control variable for the analysis. We have included this variable, because Amsterdam is a big city. So, it would make sense that the airbnb prices are more expensive in the centre than in a suburb as Amsterdam-Noord. With this control variable this location factor will not be the reason for different pricing. Now the data is prepared for our analysis. 
 
 ### Analysis and results
