@@ -19,6 +19,9 @@ listings$dummyCentrum <-ifelse(listings$neighbourhood_cleansed =="Centrum-Oost"|
 listings$dummyCentrumOost <- ifelse(listings$neighbourhood_cleansed =="Centrum-Oost", 1, 0)
 listings$dummyCentrumWest <- ifelse(listings$neighbourhood_cleansed =="Centrum-West", 1, 0)
 
+listingssub <- listings[c(1:6,9:13,18,21,23,28,33,34,36:42,75:83)]
+listingssub <- listingssub%>%filter(maximum_nights <= 90)
+
 #classification 30/60/90 days
 listingssub$classification_nights <- ''
 listingssub$classification_nights <- ifelse(listingssub$maximum_nights<=30, '0',listingssub$classification_nights)
