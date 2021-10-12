@@ -27,7 +27,6 @@ Second, summarize your results concisely. Make use of subheaders where appropria
 There are three folders (data, gen, and src), a .gitignore file, and a README.md file. The README.md file is this file that you are reasing right now. 
 
 ## Running instructions
-- You can donwload the data by clicking [here]([Uploading listings (1).csv.gz…]())
 
 - Install [RStudio and R](https://tilburgsciencehub.com/get/r)
 - Install additional packages
