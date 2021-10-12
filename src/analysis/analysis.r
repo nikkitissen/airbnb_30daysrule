@@ -1,10 +1,4 @@
-#outlier
-na.omit(listingssub$priceperson)
-lower_bound <- quantile(listingssub$priceperson, 0.01, na.rm = TRUE)
-upper_bound <- quantile(listingssub$priceperson, 0.99, na.rm = TRUE)
 
-outlier_ind <- which(listingssub$priceperson < lower_bound |listingssub$priceperson > upper_bound)
-listingssub[outlier_ind, ]
 
 #Anova neighbourhood +nights
 Priceperson_aov1 <- aov(priceperson ~ classification_nights + classification_neigbourhood, listingssub)
