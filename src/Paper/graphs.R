@@ -11,3 +11,4 @@ ggplot(listingssub, aes(x = classification_nights, y = priceperson, color= class
   geom_boxplot() 
 ggplot(listingssub, aes(x = classification_neigbourhood, y = priceperson, color=classification_neigbourhood)) +
   geom_boxplot()
+
