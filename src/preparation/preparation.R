@@ -48,4 +48,3 @@ listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_clea
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Oud-Noord", '0', listingssub$classification_neigbourhood)
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Centrum-Oost", '1', listingssub$classification_neigbourhood)
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Centrum-West", '1', listingssub$classification_neigbourhood)
-
