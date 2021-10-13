@@ -1,3 +1,14 @@
+###################
+###Download data###
+###################
+download_data <- function(url, filename){
+  download.file(url = url, destfile = paste(filename, ".csv"))
+}
+url_listings <- "http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2021-09-07/data/listings.csv"
+
+download_data(url_listings, "listings")
+
+
 #create variable price per person
 listings$priceperson= (listings$price_1/accomodates_num)
 
