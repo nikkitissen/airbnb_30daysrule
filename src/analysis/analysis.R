@@ -2,6 +2,8 @@
 ### ANALYSIS ###
 ################
 
+library(car)
+
 # input
 listingssub <- read.csv("gen/temp/listingssub.csv")
 View(listingssub)
@@ -18,6 +20,5 @@ summary((Priceperson_aov4))
 
 #ANOVA assumptions
 plot(Priceperson_aov1, 1)  #homogeneity
-library(car)
 leveneTest(priceperson ~ classification_neigbourhood*classification_nights, listingssub) 
 plot(Priceperson_aov2, 2) #normality
