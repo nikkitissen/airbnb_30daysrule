@@ -1,4 +1,6 @@
-
+# input
+listingssub <- read.csv("gen/temp/listingssub.csv")
+View(listingssub)
 
 #Anova neighbourhood +nights
 Priceperson_aov1 <- aov(priceperson ~ classification_nights + classification_neigbourhood, listingssub)
