@@ -9,5 +9,3 @@ url_listings <- "http://data.insideairbnb.com/the-netherlands/north-holland/amst
 
 download_data(url_listings, "listings")
 
-listings <- read.csv("listings.csv")
-View(listings)
