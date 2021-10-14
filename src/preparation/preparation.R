@@ -7,6 +7,10 @@ library(readr)
 listings <- read.csv("listings.csv")
 View(listings)
 
+#make accomodates and price numeric
+accomodates_num <- as.numeric(listings$accommodates)
+listings$price_1 = as.numeric(gsub("\\$", "", listings$price))
+
 #create variable price per person
 listings$priceperson= (listings$price_1/accomodates_num)
 
