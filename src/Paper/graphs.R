@@ -1,5 +1,8 @@
 install.packages("ggplot2")
 library(ggplot2)
+# input
+listingssub <- read.csv("gen/temp/listingssub.csv")
+View(listingssub)
 
 ggplot(listingssub, aes(priceperson)) + geom_bar()
 ggplot(listingssub, aes(classification_nights, priceperson)) + geom_point() + geom_boxplot()
