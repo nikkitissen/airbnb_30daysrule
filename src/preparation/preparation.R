@@ -43,7 +43,7 @@ listingssub$classification_nights <- ''
 listingssub$classification_nights <- ifelse(listingssub$maximum_nights<=30, '0',listingssub$classification_nights)
 listingssub$classification_nights <- ifelse(listingssub$maximum_nights>30&listingssub$maximum_nights<=60, '1',listingssub$classification_nights)
 listingssub$classification_nights <- ifelse(listingssub$maximum_nights>60&listingssub$maximum_nights<=90, '2',listingssub$classification_nights)
-listingssub$classification_nights <- as.factor(newnew$classification_nights)
+listingssub$classification_nights <- as.factor(listingssub$classification_nights)
 summary(aov(priceperson~1+classification_nights, data = listingssub))
 table(listingssub$classification_nights)
 
