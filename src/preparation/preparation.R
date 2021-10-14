@@ -3,6 +3,7 @@
 ####################
 
 # input
+library(readr)
 listings <- read.csv("listings.csv")
 View(listings)
 
