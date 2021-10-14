@@ -2,8 +2,10 @@
 ### PREPARE DATA ###
 ####################
 
-# input
 library(readr)
+library(dplyr)
+
+# input
 listings <- read.csv("data/listings.csv")
 View(listings)
 
