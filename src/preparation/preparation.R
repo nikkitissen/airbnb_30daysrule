@@ -4,7 +4,7 @@
 
 # input
 library(readr)
-listings <- read.csv("listings.csv")
+listings <- read.csv("data/listings.csv")
 View(listings)
 
 #make accomodates and price numeric
