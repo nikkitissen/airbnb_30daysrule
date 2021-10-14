@@ -1,13 +1,10 @@
-###################
-###Download data###
-###################
-download_data <- function(url, filename){
-  download.file(url = url, destfile = paste(filename, ".csv"))
-}
-url_listings <- "http://data.insideairbnb.com/the-netherlands/north-holland/amsterdam/2021-09-07/data/listings.csv"
+####################
+### PREPARE DATA ###
+####################
 
-download_data(url_listings, "listings")
-
+# input
+listings <- read.csv("listings.csv")
+View(listings)
 
 #create variable price per person
 listings$priceperson= (listings$price_1/accomodates_num)
@@ -25,6 +22,7 @@ listings$dummyNoord <- ifelse(listings$neighbourhood_cleansed =="Noord-Oost"|lis
 listings$dummyNoordOost <- ifelse(listings$neighbourhood_cleansed =="Noord-Oost", 1, 0)
 listings$dummyNoordWest <- ifelse(listings$neighbourhood_cleansed =="Noord-West", 1, 0)
 listings$dummyOudNoord <- ifelse(listings$neighbourhood_cleansed =="Oud-Noord", 1, 0)
+
 #dummy neighbourhood Centrum
 listings$dummyCentrum <-ifelse(listings$neighbourhood_cleansed =="Centrum-Oost"|listings$neighbourhood_cleansed == "Centrum-West", 1, 0)
 listings$dummyCentrumOost <- ifelse(listings$neighbourhood_cleansed =="Centrum-Oost", 1, 0)
@@ -41,6 +39,7 @@ listingssub$classification_nights <- ifelse(listingssub$maximum_nights>60&listin
 listingssub$classification_nights <- as.factor(newnew$classification_nights)
 summary(aov(priceperson~1+classification_nights, data = listingssub))
 table(listingssub$classification_nights)
+
 #classification for neighbourhoods
 listingssub$classification_neigbourhood <- ''
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Noord-Oost", '0', listingssub$classification_neigbourhood)
