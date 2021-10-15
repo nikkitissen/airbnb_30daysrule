@@ -1,13 +1,12 @@
-all: download_data preparation analysis graphs
+all: data/listings.csv gen/temp/listingssub.csv gen/output/plot_all_graphs.pfd
 
-listings.csv: download_data.R
-  R --vanilla < src/preparation/download_data.R
+## sub-builds
 
-plot_all.pdf: download_data.R
-  R --vanilla < src/preparation/preparation.R
+data/listings.csv: src/preparation/download_data.R
+	R --vanilla < src/preparation/download_data.R
 
-plot_all.pdf: download_data.R
-  R --vanilla < src/analysis/analysis.R
+gen/temp/listingssub.csv: src/preparation/preparation.R
+	R --vanilla < src/preparation/preparation.R
 
-plot_all.pdf: download_data.R
-  R --vanilla < src/paper/graphs.R
+gen/output/plot_all_graphs.pfd: src/Paper/graphs.R
+	R --vanilla < src/Paper/graphs.R
