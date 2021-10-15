@@ -8,7 +8,7 @@ library(ggplot2)
 listingssub <- read.csv("gen/temp/listingssub.csv")
 View(listingssub)
 
-pdf("plot_all_graphs.pdf")
+pdf("gen/output/plot_all_graphs.pdf")
 
 ggplot(listingssub, aes(x = classification_nights, y = priceperson, color= classification_nights)) +
   geom_point() +
