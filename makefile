@@ -4,7 +4,7 @@ listings.csv: download_data.R
   R --vanilla < src/preparation/download_data.R
 
 plot_all.pdf: download_data.R
-  R --vanilla < src/preparationpreparation.R
+  R --vanilla < src/preparation/preparation.R
 
 plot_all.pdf: download_data.R
   R --vanilla < src/analysis/analysis.R
