@@ -8,7 +8,7 @@ library(car)
 listingssub <- read.csv("gen/temp/listingssub.csv")
 View(listingssub)
 
-#Anova neighbourhood +nights
+#Run multiple ANOVAs for the classifications + interaction and for the dummies
 
 Priceperson_aov1 <- aov(priceperson ~ classification_nights + classification_neigbourhood, listingssub)
 summary(Priceperson_aov1)
