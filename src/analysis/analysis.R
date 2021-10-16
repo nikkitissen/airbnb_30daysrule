@@ -28,7 +28,7 @@ plot(Priceperson_aov2, 2) #normality
 dev.off()
 
 #save output ANOVA
-capture.output(summary(Priceperson_aov1), file = "anova1.doc")
-capture.output(summary(Priceperson_aov2), file = "anova2.doc")
-capture.output(summary(Priceperson_aov3), file = "anova3.doc")
-capture.output(summary(Priceperson_aov4), file = "anova4.doc")
+capture.output(summary(Priceperson_aov1), file = "gen/output/anova1.doc")
+capture.output(summary(Priceperson_aov2), file = "gen/output/anova2.doc")
+capture.output(summary(Priceperson_aov3), file = "gen/output/anova3.doc")
+capture.output(summary(Priceperson_aov4), file = "gen/output/anova4.doc")
