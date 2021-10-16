@@ -20,7 +20,7 @@ Priceperson_aov4 <- aov(priceperson ~ dummy3060days + dummy61days, listingssub)
 summary(Priceperson_aov4)
 
 #ANOVA assumptions + save graphs as PDF
-pdf("assumptions.pdf")
+pdf("gen/output/assumptions.pdf")
 plot(Priceperson_aov1, 1)  #homogeneity
 library(car)
 leveneTest(priceperson ~ classification_neigbourhood*classification_nights, listingssub) 
