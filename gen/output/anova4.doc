@@ -1,0 +1,7 @@
+                Df  Sum Sq Mean Sq F value Pr(>F)  
+dummy3060days    1    5009    5009   5.297 0.0214 *
+dummy61days      1       2       2   0.002 0.9637  
+Residuals     6852 6479813     946                 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+18 observations deleted due to missingness
