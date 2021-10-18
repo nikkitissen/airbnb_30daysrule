@@ -49,7 +49,7 @@ install.packages("car")
 install.packages("ggplot2")
 ```
 
-First, save Airbnb30DaysRuleImpactPrice.Rproj
+If you want to run the code in Rstudio, open the project Airbnb30DaysRuleImpactPrice.Rproj
 
 In order to properly run the analysis, the code has to be run using the code in the folder src. The code has to be run in the following order:
 1) download_data.R (in folder preparation)
