@@ -51,7 +51,7 @@ install.packages("ggplot2")
 In order to properly run the analysis, the code has to be run using the code in the folder src. The code has to be run in the following order:
 1) preparation.R
 2) analysis.R
-3) graphs.R
+3) graphs.R (in folder Paper)
 
 
 ## More resources
