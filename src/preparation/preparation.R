@@ -6,7 +6,7 @@
 library(readr)
 library(dplyr)
 
-# input
+# download the raw dataset listings.csv
 listings <- read.csv("data/listings.csv")
 View(listings)
 
