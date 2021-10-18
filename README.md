@@ -49,9 +49,10 @@ install.packages("car")
 install.packages("ggplot2")
 ```
 In order to properly run the analysis, the code has to be run using the code in the folder src. The code has to be run in the following order:
-1) preparation.R
-2) analysis.R
-3) graphs.R (in folder Paper)
+1) download_data.R (in folder preparation)
+2) preparation.R (in folder preparation)
+3) analysis.R (in folder analysis)
+4) graphs.R (in folder Paper)
 
 
 ## More resources
