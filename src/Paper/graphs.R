@@ -2,9 +2,10 @@
 ### GRAPHS ###
 ##############
 
-install.packages("ggplot2")
+# load required package 
 library(ggplot2)
-# input
+
+# download the prepared dataset listingssub.csv
 listingssub <- read.csv("gen/temp/listingssub.csv")
 View(listingssub)
 
