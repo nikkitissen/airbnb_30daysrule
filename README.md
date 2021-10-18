@@ -29,7 +29,7 @@ To further investigate the significance of the classification_nights, we ran the
 
 ## Repository overview
 There are three folders (data, gen/output, and src), a .gitignore file, a makefile, a Rproj file, and a README.md file. The README.md file are reading right now. 
-- In the data folder ... 
+- In the data folder you can find the necessary dataset after you download the data. 
 - In the gen/output folder you can find the results. 
 - In the src folder, you can find the codes used for the downloading, preperation, analysis and making graphs of the dataset. 
 - The makefile includes code that can be run in the commans prompt/terminal by typing "make".
