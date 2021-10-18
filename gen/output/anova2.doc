@@ -1,8 +1,8 @@
                                                     Df  Sum Sq Mean Sq F value Pr(>F)    
-classification_nights                                1     887     887   1.147  0.284    
-classification_neigbourhood                          1  201739  201739 260.989 <2e-16 ***
-classification_nights:classification_neigbourhood    1     176     176   0.227  0.634    
-Residuals                                         1605 1240633     773                   
+classification_nights                                2    3564    1782   2.323 0.0983 .  
+classification_neigbourhood                          1  210832  210832 274.847 <2e-16 ***
+classification_nights:classification_neigbourhood    2     967     483   0.630 0.5327    
+Residuals                                         1637 1255726     767                   
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-5264 observations deleted due to missingness
+5360 observations deleted due to missingness
