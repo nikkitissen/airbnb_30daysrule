@@ -33,15 +33,13 @@ There are three folders (data, gen, and src), a .gitignore file, and a README.md
 
 ```
 install.packages("dplyr")
-```
-```
+library(dplyr)
 install.packages("readr")
-```
-```
+library(readr)
 install.packages("car")
-```
-```
+library(car)
 install.packages("ggplot2")
+library(ggplot2)
 ```
 
 To analyse whether the 30-days rule has a significant effect on the price of Airbnbs, we have used the following code: 
