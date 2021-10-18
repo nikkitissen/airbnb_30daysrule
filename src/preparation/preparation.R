@@ -51,7 +51,7 @@ summary(aov(priceperson~1+classification_nights, data = listingssub))
 table(listingssub$classification_nights)
 
 #classification for neighbourhoods
-#firt create a new empty variable, then assign the values 0 and 1 to them in accordance with the dummy groups
+#first create a new empty variable, then assign the values 0 and 1 to them in accordance with the dummy groups
 listingssub$classification_neigbourhood <- ''
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Noord-Oost", '0', listingssub$classification_neigbourhood)
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Noord-West", '0', listingssub$classification_neigbourhood)
