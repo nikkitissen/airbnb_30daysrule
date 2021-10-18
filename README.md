@@ -27,6 +27,12 @@ With this ANOVA, we can conclude that both variables have a significant effect o
 ##### - ANOVA dummy variables nights rent out
 To further investigate the significance of the classification_nights, we ran the ANOVA again but now only with the dummy variables. Here we concluded that the hosts who do not stick to the rules but do not rent out the appartment for more than 60 days, demand a significantly higher price than the other hots. Those who stuck to the rules or who rented it out for more than 60 days did not demand a significantly higher price
 
+##### - Results
+In conclusion, this project investigated the effect of the neighbourhood and the effect of the implemented 30-days rule on the Airbnb prices in Amsterdam.  The neighbourhood affects the price per person the greatest, as the prices in Amsterdam Centrum are significantly higher than in Amsterdam Noord. Whether hosts stick to the 30-days rule or not does not have a significant effect on the Airbnb prices in Amsterdam. However, when looking at the groups separately, one can see that those who rent out their apartment between 30 and 60 days, do ask a significantly higher price than those who stick to the 30-day rule and those who rent it out for more than 60 days. 
+
+It should be noted that when running the assumptions of the ANOVA are met however at the beginning and end, the values deviate more. The homoscedasticity could be more equally spread. This was also seen in the Levene’s which had a p-value <0.05, which indicates that the variance across the treatment groups is not equal. This implies that further investigation is needed as some assumptions of ANOVA are not met.
+
+
 ## Repository overview
 There are three folders (data, gen/output, and src), a .gitignore file, a makefile, a Rproj file, and a README.md file. The README.md file are reading right now. 
 - In the data folder you can find the necessary dataset after you download the data. 
