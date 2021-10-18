@@ -28,7 +28,12 @@ With this ANOVA, we can conclude that both variables have a significant effect o
 To further investigate the significance of the classification_nights, we ran the ANOVA again but now only with the dummy variables. Here we concluded that the hosts who do not stick to the rules but do not rent out the appartment for more than 60 days, demand a significantly higher price than the other hots. Those who stuck to the rules or who rented it out for more than 60 days did not demand a significantly higher price
 
 ## Repository overview
-There are three folders (data, gen/output, and src), a .gitignore file, and a README.md file. The README.md file is this file that you are reading right now. In the src folder, you can find the codes used for the preperation, analysis and graphs of the dataset. In the folder gen/output you can find the results.
+There are three folders (data, gen/output, and src), a .gitignore file, a makefile, and a README.md file. The README.md file are reading right now. 
+- In the data folder ... 
+- In the gen/output folder you can find the results. 
+- In the src folder, you can find the codes used for the downloading, preperation, analysis and making graphs of the dataset. 
++ The makefilw includes code that can be run in the commans prompt/terminal by typing "make".
++ The gitignore file includes files that should be ignored by Git and remain untracked. 
 
 ## Running instructions
 
