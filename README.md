@@ -21,10 +21,10 @@ This last variable is included as a control variable for the analysis. We have i
 ### Analysis and results
 The dependent variable (price per person) is metric, the independent variable (classification_nights (0-30, 31-60, 61-90)) is non-metric, and the control variable (neighbourhood) is also non-metric. Therefore, the chosen research method is ANOVA. With ANOVA we can measure the average price per person of each group of renting days. We ran multiple ANOVAs, one where we focused on the classifications of nights and neighbourhoods and one where we looked at the renting days more specifically. To visualise these results we created graphs.
 
-##### ANOVA classification_nights & classification_neighbourhood
+##### - ANOVA classification_nights & classification_neighbourhood
 With this ANOVA, we can conclude that both variables have a significant effect on the price. The neighbourhood is found to have the greatest effect on the price, where appartments in the centre demand a higher price per person than in Amsterdam Noord. The variable Classification_nights only proved marginally significant, hence we decided to run an extra analysis to draw a conclusion. Moreover, there was no interaction effect found between the two variables.
 
-##### ANOVA dummy variables nights rent out
+##### - ANOVA dummy variables nights rent out
 To further investigate the significance of the classification_nights, we ran the ANOVA again but now only with the dummy variables. Here we concluded that the hosts who do not stick to the rules but do not rent out the appartment for more than 60 days, demand a significantly higher price than the other hots. Those who stuck to the rules or who rented it out for more than 60 days did not demand a significantly higher price
 
 ## Repository overview
