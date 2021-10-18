@@ -2,6 +2,7 @@
 ### PREPARE DATA ###
 ####################
 
+# load required packages
 library(readr)
 library(dplyr)
 
@@ -57,6 +58,9 @@ listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_clea
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Oud-Noord", '0', listingssub$classification_neigbourhood)
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Centrum-Oost", '1', listingssub$classification_neigbourhood)
 listingssub$classification_neigbourhood <- ifelse(listingssub$neighbourhood_cleansed =="Centrum-West", '1', listingssub$classification_neigbourhood)
+
+# create dictionary
+dir.create(("gen/temp"), showWarnings = FALSE)
 
 # output
 write.csv(listingssub, "gen/temp/listingssub.csv", row.names = FALSE)
