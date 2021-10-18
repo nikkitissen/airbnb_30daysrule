@@ -19,34 +19,34 @@ We downloaded the dataset from the Airbnb website with the listings data for Ams
 This last variable is included as a control variable for the analysis. We have included this variable, because Amsterdam is a big city. So, it would make sense that the airbnb prices are more expensive in the centre than in a suburb as Amsterdam-Noord. With this control variable this location factor will not be the reason for different pricing. Now the data is prepared for our analysis. 
 
 ### Analysis and results
-The dependent variable (price per person) is metric, the independent variable (renting days (0-30, 31-60, 61-90)) is non-metric, and the control variable (neighbourhood) is also non-metric. Therefore, the chosen research method is ANOVA. With ANOVA we can measure the average price per person of each group of renting days. 
+The dependent variable (price per person) is metric, the independent variable (renting days (0-30, 31-60, 61-90)) is non-metric, and the control variable (neighbourhood) is also non-metric. Therefore, the chosen research method is ANOVA. With ANOVA we can measure the average price per person of each group of renting days. We ran multiple ANOVAs, one where we focused on the classifications of nights and neighbourhoods and one where we looked at the renting days more specifically. To visualise these results we also created some graphs.
 
-Second, summarize your results concisely. Make use of subheaders where appropriate.
+#### ANOVA classification_nights & classification_neighbourhood
+With this ANOVA, we concluded that both variables have a significant effect on the price. The neighbourhood is found to have the greatest effect on the price, where appartments in the centre demand a higher price per person than in Amsterdam Noord. The variable Classification_nights only proved marginally significant, hence we decided to run an extra analysis to draw a conclusion. Moreover, there was no interaction effect found between the two variables.
+
+#### ANOVA dummy variables nights rent out
+To further investigate the significance of the classification_nights, we ran the ANOVA again but now only with the dummy variables. Here we concluded that the hosts who do not stick to the rules but do not rent out the appartment for more than 60 days, demand a significantly higher price than the other hots. Those who stuck to the rules or who rented it out for more than 60 days did not demand a significantly higher price
 
 ## Repository overview
-There are three folders (data, gen, and src), a .gitignore file, and a README.md file. The README.md file is this file that you are reasing right now. 
+There are three folders (data, gen/output, and src), a .gitignore file, and a README.md file. The README.md file is this file that you are reasing right now. In the src folder, you can find the codes used for the preperation, analysis and graphs of the dataset. In the folder gen/output you can find the results.
 
 ## Running instructions
 
 - Install [RStudio and R](https://tilburgsciencehub.com/get/r)
+- Install [Make](https://tilburgsciencehub.com/building-blocks/configure-your-computer/automation-and-workflows/make/)
 - Install additional packages
 
 ```
 install.packages("dplyr")
-library(dplyr)
 install.packages("readr")
-library(readr)
 install.packages("car")
-library(car)
 install.packages("ggplot2")
-library(ggplot2)
 ```
+In order to properly run the analysis, the code has to be run using the code in the folder src. The code has to be run in the following order:
+1) preparation.R
+2) analysis.R
+3) graphs.R
 
-To analyse whether the 30-days rule has a significant effect on the price of Airbnbs, we have used the following code: 
-```
-priceperson_aov0 <- lm(priceperson ~ RULEDUMMY*CONTROLVARIABLE,listings.csv) MOET ANDERE NAMEN VAN VARIABELEN
-anova(priceperson_aov0)
-```
 
 ## More resources
 - More information about the 30-days rule can be found [here](https://www.airbnb.com/help/article/860/amsterdam?locale=en&_set_bev_on_new_domain=1632399829_ZDVkNDgwYmU4YjY2) (this article is also available in [Dutch](https://www.airbnb.nl/help/article/860/amsterdam?_set_bev_on_new_domain=1632399829_ZDVkNDgwYmU4YjY2))
