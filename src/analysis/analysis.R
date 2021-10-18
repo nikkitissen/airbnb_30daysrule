@@ -2,9 +2,10 @@
 ### ANALYSIS ###
 ################
 
+# load required package
 library(car)
 
-# input
+# download the prepared dataset listingssub.csv
 listingssub <- read.csv("gen/temp/listingssub.csv")
 View(listingssub)
 
@@ -22,7 +23,6 @@ summary(Priceperson_aov4)
 #ANOVA assumptions + save graphs as PDF
 pdf("gen/output/assumptions.pdf")
 plot(Priceperson_aov1, 1)  #homogeneity
-library(car)
 leveneTest(priceperson ~ classification_neigbourhood*classification_nights, listingssub) 
 plot(Priceperson_aov2, 2) #normality
 dev.off()
