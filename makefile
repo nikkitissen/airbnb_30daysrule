@@ -1,4 +1,4 @@
-all: data/listings.csv gen/temp/listingssub.csv gen/output/assumptions.pdf gen/output/anova1.doc gen/output/anova2.doc gen/output/anova3.doc gen/output/anova4.doc gen/output/plot_all_graphs.pfd
+all: data/listings.csv gen/temp/listingssub.csv gen/output/assumptions.pdf gen/output/anova1.doc gen/output/anova2.doc gen/output/anova3.doc gen/output/anova4.doc gen/output/graphs_airbnb.pdf
 
 ## sub-builds
 
@@ -23,5 +23,5 @@ gen/output/anova3.doc: src/analysis/analysis.R
 gen/output/anova4.doc: src/analysis/analysis.R
 	R --vanilla < src/analysis/analysis.R
 
-gen/output/plot_all_graphs.pfd: src/Paper/graphs.R
+gen/output/graphs_airbnb.pdf: src/Paper/graphs.R
 	R --vanilla < src/Paper/graphs.R
